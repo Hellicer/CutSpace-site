@@ -1,37 +1,58 @@
-body{
- font-family: 'Poppins';
-  
+body {
+  font-family: "Poppins";
 }
-.wrapper{
+.wrapper {
   padding-bottom: 20px;
 }
-
- .navbar-brand{
+.title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 62px;
+  letter-spacing: 0.8px;
+  color: #323232;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0px 0 0px 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 1.15px;
+  color: #323232;
+padding-bottom: 15px;
+}
+.navbar-brand {
   height: 36px;
-  top: calc(50% - 36px/2 + 1px);
+  top: calc(50% - 36px / 2 + 1px);
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  line-height: 36px;  
+  line-height: 36px;
   color: #323232;
   left: 27.98%;
   right: 0%;
   margin: 0;
   padding: 4px 0 0 10px;
-
 }
-.logoicon{
-  padding: 0 0px 12px 22px;
+.logoicon {
+  padding: 0 0px 12px 10px;
 }
 
-.container-fluid {  
+.container-fluid {
   justify-content: space-between;
   padding: 0 0 0 0;
   max-width: 1440px;
   background-color: #fff;
 }
-.navbar>.container, .navbar>.container-fluid {
+.navbar > .container,
+.navbar > .container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,12 +64,11 @@ body{
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  max-width: 1140px;
-
+  max-width: 1120px;
 }
-.nav-item .navbar{
+.nav-item .navbar {
   padding: 0 0 0 0;
-} 
+}
 
 .navbar-nav {
   font-family: Poppins;
@@ -60,43 +80,49 @@ body{
   color: #323232;
 }
 
-.navbar-light .padding-zero{
-padding: 0 0 0 0 ;
+.navbar-light .padding-zero {
+  padding: 0 0 0 0;
 }
-#homepage-navbar{
+#homepage-navbar {
   font-weight: bold;
-  color: #F78434;
+  color: #f78434;
 }
 
-
-
-.navbar-collapse{
+.navbar-collapse {
   margin-right: -13px;
   flex-grow: 0;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 13px 2.5px 13px;
 }
 
-::-webkit-input-placeholder {color:#BBBBBB;}
-:-ms-input-placeholder      {color:#974848;}
-::-moz-placeholder          {color:#BBBBBB;}/* Firefox 19+ */
-:-moz-placeholder           {color:#BBBBBB;}/* Firefox 18- */
+::-webkit-input-placeholder {
+  color: #bbbbbb;
+}
+:-ms-input-placeholder {
+  color: #974848;
+}
+::-moz-placeholder {
+  color: #bbbbbb;
+} /* Firefox 19+ */
+:-moz-placeholder {
+  color: #bbbbbb;
+} /* Firefox 18- */
 
-.section-info-subscribe{
+.section-info-subscribe {
   max-width: 1275px;
 }
-.item-info{
+.item-info {
   max-width: 1130px;
   background: url(/img/main/section1/Your\ image\ here.jpg) no-repeat right;
+
   height: 681px;
   margin-top: auto;
   margin-left: auto;
-
 }
 
- .item-info__title {
+.item-info__title {
   padding-top: 130px;
   max-width: 650px;
   padding-left: 20px;
@@ -107,9 +133,8 @@ padding: 0 0 0 0 ;
   letter-spacing: 0.8px;
   color: #323232;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
-.item-info__text{
+.item-info__text {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -121,123 +146,120 @@ padding: 0 0 0 0 ;
   padding-left: 20px;
   padding-top: 25px;
 }
-.item-info-action{
+
+.item-info-action {
   padding-left: 45px;
   padding-top: 42px;
 }
 
-
-input.item-info__input{
+input.item-info__input {
   margin-right: 3px;
   padding-left: 47px;
   background: url(/img/main/section1/icon-mail-logo.svg) no-repeat center left;
 }
 
-.item-info__input{
+.item-info__input {
   border: none;
   text-align: left;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 29px;
 }
-.item-info__button, .item-learn__button{
-  background: #F78434;
+.item-info__button,
+.item-learn__button {
+  background: #f78434;
   border-radius: 29px;
   width: 157px;
   height: 58px;
   border: none;
 }
-.item-info__button a, .item-learn__button a{
+.item-info__button a,
+.item-learn__button a {
   font-family: Poppins;
   font-style: normal;
   font-size: 16px;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 24px;
   text-decoration: none;
 }
 
-
 /*  убирает подсветку во всех браузерах и не только на input, но и на других элементах, в том числе select, button, a: */
-:active, :hover, :focus {
+:active,
+:hover,
+:focus {
   outline: 0;
   outline-offset: 0;
 }
 
-.section-logo{
+.section-logo {
   height: 235px;
   display: flex;
   justify-content: center;
   align-content: space-around;
 }
-.item-logo__ul{
+.item-logo__ul {
   display: flex;
   align-items: center;
   margin: 0;
 }
-.item-logo__li{
+.item-logo__li {
   padding: 0 47.5px 0 47.5px;
 }
 
-
-.item-learn{
+.item-learn {
   display: flex;
-   justify-content: space-evenly;
-  }
-  
-  .item-learn-content__image{
-  display: flex;
-  margin:12px 0px 0px -160px;
+  justify-content: space-evenly;
+  max-height: 556px;
 }
-.image-learn-photo_first{
-  background:url(/img/main/section3-subs/Your\ images\ here.png) no-repeat left;
-  border-radius:0px 20px 20px 0px;
+
+.item-learn-content__image {
+  display: flex;
+  margin: 12px 0px 0px -160px;
+}
+.image-learn-photo_first {
+  background: url(/img/main/section3-subs/Your\ images\ here.png) no-repeat left;
+  border-radius: 0px 20px 20px 0px;
   height: 541px;
   width: 300px;
-   margin-right: 35px;
-    
-
-  }
- .image-learn-photo_second{
-   background:url(/img/main/section3-subs/image-town.jpg) no-repeat;
-   border-radius:20px 20px 0px 20px;
+  margin-right: 35px;
+}
+.image-learn-photo_second {
+  background: url(/img/main/section3-subs/image-town.jpg) no-repeat;
+  border-radius: 20px 20px 0px 20px;
   height: 541px;
   width: 380px;
- }
-
-
- .item-learn-hover{
-    display: flex; 
-  height: 140px;
-  width: 300px;
-align-items: center;
-background: #FFFFFF;
-box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
-border-radius: 15px;
-margin: 314px 0 0 100px;
-justify-content: space-evenly;
-opacity: 0.1;
-visibility: hidden;
- }
-
- .image-learn-photo_second:hover 
-.item-learn-hover{
-  margin-left: 130px;
- transition: 1.5s;
- opacity: 1;
-visibility: visible;
 }
 
-.item-learn-content
-{
+.item-learn-hover {
+  display: flex;
+  height: 140px;
+  width: 300px;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  margin: 314px 0 0 100px;
+  justify-content: space-evenly;
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+
+.image-learn-photo_second:hover .item-learn-hover {
+  margin-left: 130px;
+  transition: all 1s ease-out;
+  opacity: 1;
+}
+
+.item-learn-content {
   display: flex;
   flex-direction: column;
   max-width: 380px;
   justify-content: space-evenly;
   padding: 0px 0 20px 0px;
   margin: 50px 0px 33.1px 20px;
-  }
-  .item-learn__title{
-   font-family: Poppins;
+}
+.item-learn__title {
+  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -248,8 +270,8 @@ visibility: visible;
   padding: 0px 0 0px 0px;
   margin-top: 20px;
   margin-bottom: 20px;
-  }
-  .item-learn__text{
+}
+.item-learn__text {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -257,36 +279,54 @@ visibility: visible;
   line-height: 27px;
   letter-spacing: 1.15px;
   color: #323232;
-
-  padding-bottom: 25px;
-  }
-  .item-learn__button{
-    width: 170px;
-  }
- 
-
-
-  
-.learn-text__hover{
-  font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 27px;
-/* or 169% */
-letter-spacing: 1.15px;
-color: #323232;
+padding-bottom: 15px;
 }
-  
-.learn-title__hover{
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.8px;
-color: #323232; }
 
-.item-learn-text__columm{ 
-  width: 180px;
+.item-learn__button {
+  width: 170px;
+}
+
+.learn-text__hover {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  /* or 169% */
+  letter-spacing: 1.15px;
+  color: #323232;
+}
+
+.learn-title__hover {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  color: #323232;
+}
+
+.item-learn-text__columm {
+  max-width: 180px;
+}
+
+.section-advertising
+{
+  display: flex;
+  height: 464px;
+  background-color: #58BEBF;
+  border-radius: 20px;
+  flex-direction: row;
+
+  align-items: center;
+}
+.item-advertising-dashbord{
+  display: flex;
+  box-shadow: 4px 20px 42px -2px rgb(0 0 0 / 12%);
+  border-radius: 21.6px;
+  height: 400px;
+  width: 555px;
+  background: #FFFFFF;
+  
 }
