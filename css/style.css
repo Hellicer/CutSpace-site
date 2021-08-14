@@ -328,5 +328,8 @@ padding-bottom: 15px;
   height: 400px;
   width: 555px;
   background: #FFFFFF;
-  
+}
+.item-element-circle__main-first{
+  position: relative;
+    margin: 367.1px 0 0px -170px;
 }
