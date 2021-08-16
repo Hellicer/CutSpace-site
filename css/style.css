@@ -1,9 +1,11 @@
 body {
   font-family: "Poppins";
 }
+
 .wrapper {
   padding-bottom: 20px;
 }
+
 .title {
   font-family: Poppins;
   font-style: normal;
@@ -17,6 +19,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .text {
   font-family: Poppins;
   font-style: normal;
@@ -25,8 +28,37 @@ body {
   line-height: 27px;
   letter-spacing: 1.15px;
   color: #323232;
-padding-bottom: 15px;
+  padding-bottom: 15px;
 }
+
+button {
+  background: #f78434;
+  border-radius: 29px;
+  width: 157px;
+  height: 58px;
+  border: none;
+}
+
+.item-info__button a,
+.item-learn__button a,
+.item-advertising__button a {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+/*  убирает подсветку во всех браузерах и не только на input, но и на других элементах, в том числе select, button, a: */
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
 .navbar-brand {
   height: 36px;
   top: calc(50% - 36px / 2 + 1px);
@@ -41,6 +73,7 @@ padding-bottom: 15px;
   margin: 0;
   padding: 4px 0 0 10px;
 }
+
 .logoicon {
   padding: 0 0px 12px 10px;
 }
@@ -51,8 +84,9 @@ padding-bottom: 15px;
   max-width: 1440px;
   background-color: #fff;
 }
-.navbar > .container,
-.navbar > .container-fluid {
+
+.navbar>.container,
+.navbar>.container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,6 +100,7 @@ padding-bottom: 15px;
   justify-content: space-between;
   max-width: 1120px;
 }
+
 .nav-item .navbar {
   padding: 0 0 0 0;
 }
@@ -83,6 +118,7 @@ padding-bottom: 15px;
 .navbar-light .padding-zero {
   padding: 0 0 0 0;
 }
+
 #homepage-navbar {
   font-weight: bold;
   color: #f78434;
@@ -100,23 +136,30 @@ padding-bottom: 15px;
 ::-webkit-input-placeholder {
   color: #bbbbbb;
 }
+
 :-ms-input-placeholder {
   color: #974848;
 }
+
 ::-moz-placeholder {
   color: #bbbbbb;
-} /* Firefox 19+ */
+}
+
+/* Firefox 19+ */
 :-moz-placeholder {
   color: #bbbbbb;
-} /* Firefox 18- */
+}
+
+/* Firefox 18- */
 
 .section-info-subscribe {
   max-width: 1275px;
+
 }
+
 .item-info {
   max-width: 1130px;
   background: url(/img/main/section1/Your\ image\ here.jpg) no-repeat right;
-
   height: 681px;
   margin-top: auto;
   margin-left: auto;
@@ -134,6 +177,7 @@ padding-bottom: 15px;
   color: #323232;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .item-info__text {
   font-family: Poppins;
   font-style: normal;
@@ -164,32 +208,6 @@ input.item-info__input {
   background: #ffffff;
   border-radius: 29px;
 }
-.item-info__button,
-.item-learn__button {
-  background: #f78434;
-  border-radius: 29px;
-  width: 157px;
-  height: 58px;
-  border: none;
-}
-.item-info__button a,
-.item-learn__button a {
-  font-family: Poppins;
-  font-style: normal;
-  font-size: 16px;
-  font-weight: bold;
-  color: #ffffff;
-  line-height: 24px;
-  text-decoration: none;
-}
-
-/*  убирает подсветку во всех браузерах и не только на input, но и на других элементах, в том числе select, button, a: */
-:active,
-:hover,
-:focus {
-  outline: 0;
-  outline-offset: 0;
-}
 
 .section-logo {
   height: 235px;
@@ -197,13 +215,19 @@ input.item-info__input {
   justify-content: center;
   align-content: space-around;
 }
+
 .item-logo__ul {
   display: flex;
   align-items: center;
   margin: 0;
 }
+
 .item-logo__li {
   padding: 0 47.5px 0 47.5px;
+}
+
+.section-learn {
+  padding: 0 0 145px 0;
 }
 
 .item-learn {
@@ -216,6 +240,7 @@ input.item-info__input {
   display: flex;
   margin: 12px 0px 0px -160px;
 }
+
 .image-learn-photo_first {
   background: url(/img/main/section3-subs/Your\ images\ here.png) no-repeat left;
   border-radius: 0px 20px 20px 0px;
@@ -223,6 +248,7 @@ input.item-info__input {
   width: 300px;
   margin-right: 35px;
 }
+
 .image-learn-photo_second {
   background: url(/img/main/section3-subs/image-town.jpg) no-repeat;
   border-radius: 20px 20px 0px 20px;
@@ -258,6 +284,7 @@ input.item-info__input {
   padding: 0px 0 20px 0px;
   margin: 50px 0px 33.1px 20px;
 }
+
 .item-learn__title {
   font-family: Poppins;
   font-style: normal;
@@ -271,6 +298,7 @@ input.item-info__input {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .item-learn__text {
   font-family: Poppins;
   font-style: normal;
@@ -279,7 +307,7 @@ input.item-info__input {
   line-height: 27px;
   letter-spacing: 1.15px;
   color: #323232;
-padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .item-learn__button {
@@ -311,25 +339,152 @@ padding-bottom: 15px;
   max-width: 180px;
 }
 
-.section-advertising
-{
+.backgroond-fffff {
+  width: 1440px;
+  height: 886px;
+  background-color: #F5F6FA;
+  ;
+  position: absolute;
+  margin: 230px 0 0 0;
   display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-advertising {
+  display: flex;
+  max-width: 1110px;
   height: 464px;
-  background-color: #58BEBF;
+  background-color: #58bebf;
   border-radius: 20px;
   flex-direction: row;
-
   align-items: center;
-}
-.item-advertising-dashbord{
-  display: flex;
-  box-shadow: 4px 20px 42px -2px rgb(0 0 0 / 12%);
-  border-radius: 21.6px;
-  height: 400px;
-  width: 555px;
-  background: #FFFFFF;
-}
-.item-element-circle__main-first{
+  margin-right: auto;
+  margin-left: auto;
   position: relative;
-    margin: 367.1px 0 0px -170px;
+  justify-content: space-between;
+  margin-top: -232px;
+  margin-bottom: 125px;
 }
+
+.item-advertising-dashbord {
+  display: flex;
+  box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 21.6px 0px 0px;
+  height: 406px;
+  width: 555px;
+  /* justify-content: center; */
+  margin: 61px 0px 0px 0px;
+  background: #ffffff;
+}
+
+.item-advertising-img {
+  padding: 25px 0px 0 0px;
+}
+
+.item-element-circle__main-first {
+  position: absolute;
+  margin: 304px 0 0px 370px;
+}
+
+.item-element-circle__second {
+  background: url(/img/main/section4-ad/sub-circl.svg) no-repeat center;
+  position: absolute;
+  margin: 0px 0px 366px 885px;
+}
+
+.item-advertising-content {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0px 8px 0px 100px;
+  padding: 0px 0 0px 0;
+}
+
+.item-advertising__title {
+  max-width: 450px;
+
+  margin: 0px 0px 15px 0px;
+  padding: 0px 0 0px 0;
+  color: #ffffff;
+}
+
+.item-advertising__text {
+  max-width: 300px;
+  color: #ffffff;
+  margin: 0px 0px 30px 0px;
+  padding: 0px 0 0px 0;
+}
+
+.item-advertising__button {
+  margin: 0px 20px 0 0;
+  width: 170px;
+}
+
+.item-advertising__button-white {
+  background: #ffffff;
+  border-radius: 29px;
+  width: 172px;
+  height: 58px;
+  border: none;
+}
+
+.item-advertising__button-white a {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+
+.section-serve {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.item-buyers,
+.item-sellers {
+  width: 540px;
+  height: 365px;
+  box-shadow: 0px 40px 52px -22px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.item-buyers {
+  background: #F78434;
+  margin-right: 30px;
+}
+
+.item-serve-action {
+  display: flex;
+}
+
+.item-serve__text {
+  padding: 10px 0 25px 0;
+}
+
+.item-serve-content__text {
+  max-width: 330px;
+}
+
+.item-serve-content__title {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.item-sellers,
+.item-buyers {}
