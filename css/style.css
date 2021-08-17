@@ -29,6 +29,8 @@ body {
   letter-spacing: 1.15px;
   color: #323232;
   padding-bottom: 15px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
 }
 
 button {
@@ -41,7 +43,9 @@ button {
 
 .item-info__button a,
 .item-learn__button a,
-.item-advertising__button a {
+.item-advertising__button a,
+.item-serve__button a,
+.item-serve__button-first a{
   font-family: Poppins;
   font-style: normal;
   font-size: 16px;
@@ -189,6 +193,8 @@ button {
   max-width: 490px;
   padding-left: 20px;
   padding-top: 25px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .item-info-action {
@@ -308,6 +314,8 @@ input.item-info__input {
   letter-spacing: 1.15px;
   color: #323232;
   padding-bottom: 15px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .item-learn__button {
@@ -323,6 +331,8 @@ input.item-info__input {
   /* or 169% */
   letter-spacing: 1.15px;
   color: #323232;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .learn-title__hover {
@@ -341,7 +351,7 @@ input.item-info__input {
 
 .backgroond-fffff {
   width: 1440px;
-  height: 886px;
+  height: 705px;
   background-color: #F5F6FA;
   ;
   position: absolute;
@@ -415,6 +425,8 @@ input.item-info__input {
   color: #ffffff;
   margin: 0px 0px 30px 0px;
   padding: 0px 0 0px 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .item-advertising__button {
@@ -475,16 +487,135 @@ input.item-info__input {
 
 .item-serve__text {
   padding: 10px 0 25px 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .item-serve-content__text {
   max-width: 330px;
-}
-
-.item-serve-content__title {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
 
-.item-sellers,
-.item-buyers {}
+.item-serve-content__title {
+  margin: 10px 0 0 0;
+  padding: 0 0 0 0;
+}
+.item-buyers>.item-serve-content__text, .item-buyers>.item-serve-content__title{
+   color:#ffffff;
+}
+.item-serve-icons_home{
+  margin: 10px 0 0 0;
+  background: url(/img/main/section5-serve/homes-for_sales.svg) no-repeat;
+  width: 75px;
+  height: 75px; 
+}
+.item-serve-icons-sell{
+  margin: 10px 0 0 0;
+  background: url(/img/main/section5-serve/table-sall.svg) no-repeat;
+  width: 75px;
+  height: 75px; 
+}
+.item-serve__button {
+  padding: 0 0 0 0;
+  margin: 25px 0 0 0;
+}
+.item-serve__button-first {
+  padding: 0 0 0 0;
+  margin: 25px 0 0 0;
+  background:#ffffff;
+  width: 170px;
+  
+}
+.item-serve__button-first a {
+  color: #F78434;
+}
+.item-buyers:hover{
+  background-color: #fff;
+}
+.item-buyers:hover .item-sellers {
+  background: #000000;
+}
+.item-buyers:hover .item-serve-content__text, .item-buyers:hover .item-serve-content__title{
+  color:#000000;
+}
+.item-buyers:hover .item-serve-icons_home{
+  background: url(/img/main/section5-serve/homes-for_sales-reh.svg) no-repeat;
+  width: 75px;
+  height: 75px; 
+}
+
+.item-buyers:hover .item-serve__button-first {
+  background: #F78434;
+}
+
+.item-buyers:hover .item-serve__button-first a {
+  color: #ffffff;
+}
+
+/*элемент для иземенения справого айтема(рабочий)
+ .item-sellers:hover{
+  background-color: #F78434;
+}
+.item-sellers:hover .item-serve-content__text, .item-sellers:hover .item-serve-content__title{
+  color:#ffffff;
+}
+.item-sellers:hover .item-serve-icons-sell{
+  background: url(/img/main/section5-serve/table-sall-white.svg) no-repeat;
+  width: 75px;
+  height: 75px; 
+}
+
+.item-sellers:hover .item-serve__button {
+  background: #ffffff ;
+}
+
+.item-sellers:hover .item-serve__button a {
+  color: #F78434;
+} */
+.section-choose{
+  display: flex;
+  height: 709px;
+  margin-top: 1300px;
+margin-left:  auto;
+margin-right:  auto;
+flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.item-choose__ul, .list-style-type {
+  list-style-type:none;
+}
+
+.item-choose__ul
+{
+  display: flex;
+}
+
+.item-choose-logo__image1{
+  width: 70px;
+  height: 70px;
+background:url(/img/main/section6-choose/Authenticity-orange.svg)
+}
+
+.item-choose-logo__image2{
+  width: 70px;
+  height: 70px;
+background:url(/img/main/section6-choose/Authenticity-orange.svg)
+}
+
+.item-choose-logo__image3{
+  width: 70px;
+  height: 70px;
+background:url(/img/main/section6-choose/Authenticity-orange.svg)
+}
+
+.item-choose-logo__image4{
+  width: 70px;
+  height: 70px;
+  background:url(/img/main/section6-choose/Authenticity-orange.svg)
+}

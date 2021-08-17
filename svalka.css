@@ -1,0 +1,36 @@
+button {
+  background: #f78434;
+  border-radius: 29px;
+  width: 157px;
+  height: 58px;
+  border: none;
+}
+button a{
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+
+.item-info__button,
+.item-learn__button {
+  background: #f78434;
+  border-radius: 29px;
+  width: 157px;
+  height: 58px;
+  border: none;
+}
+.item-info__button a,
+.item-learn__button a {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 24px;
+  text-decoration: none;
+}
