@@ -34,3 +34,80 @@ button a{
   line-height: 24px;
   text-decoration: none;
 }
+
+
+.section-choose{
+  display: flex;
+  height: 709px;
+  margin-top: 1300px;
+margin-left:  auto;
+margin-right:  auto;
+flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.choose-image-icons
+{
+  display: flex;
+  
+}
+.item-choose-content{
+
+  display: flex;
+  
+}
+.item-choose__ul, .list-style-type {
+  list-style-type:none;
+}
+
+.item-choose__ul
+{
+  display: flex;
+  
+}
+.item-choose__list{
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item-choose-title_main{
+  font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 62px;
+/* identical to box height, or 148% */
+
+text-align: center;
+letter-spacing: 0.8px;
+
+color: #323232;
+}
+.item-choose-title{
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 0.5px;
+  
+  color: #323232;
+}
+.item-choose-text{
+  font-size: 16px;
+line-height: 27px;
+/* or 169% */
+width: 300px;
+text-align: center;
+letter-spacing: 1.15px;
+
+color: #323232;
+
+}
+
+
+item-choose-logo__imageitem-choose-logo__image
