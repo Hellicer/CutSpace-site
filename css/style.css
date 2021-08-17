@@ -745,14 +745,21 @@ input.item-info__input {
 }
 
 .item-video_list {
+  margin: 0 15px 0 15px;
   height: 425px;
   width: 350px;
-  box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
-  margin: 0 15px 0 15px;
   border-radius: 5px 5px 5px 5px;
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
+}
+.item-video_list:first-of-type {
+  margin: 0 15px 0 0;
+}
+
+.item-video_list:hover {
+   box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.08);
+
 }
 .item-video_list:first-of-type {
   margin: 0 15px 0 0;
@@ -822,4 +829,43 @@ input.item-info__input {
   background: url(/img/main/section7-video/third-photo.png) no-repeat center;
   width: 350px;
   height: 205px;
+}
+
+.section-end {
+  display: flex;
+  height: 709px;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* align-content: center; */
+  text-align: center;
+}
+.item-end{
+background:url(/img/main/section8-end/background.png) no-repeat bottom;
+￼    display: flex;￼
+￼    flex-direction: column;
+￼    justify-content: center;
+￼    flex-wrap: wrap;;
+}
+
+.item-end-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 362px;
+  margin: auto;
+}
+
+.item-end-image{
+  background:url(/img/main/section8-end/Photo-girl`s.png) no-repeat;
+  width: 478px;
+  height: 547px;
+  float: right;
+}
+.item-end-el_disign{
+  background:url(/img/main/section8-end/Oval.png) no-repeat center;
 }
